@@ -9,5 +9,10 @@
 <h1>Binding a name: </h1>
 <app-author [parentData]="name" ></app-author>
 <h2>The Authors...under construction</h2>
-<router-outlet></router-outlet>
+  <div class="component">
+    <!--<h3>Router shtuff Will go Here</h3>-->
+    <button [routerLink]="['home']">HOME</button>
+
+    <router-outlet></router-outlet>
+  </div>
 </div>

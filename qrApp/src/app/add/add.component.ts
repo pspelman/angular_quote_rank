@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpService} from "../http.service";
+
 
 @Component({
   selector: 'app-add',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddComponent implements OnInit {
 
-  constructor() { }
+  //TODO: create the html service
+  constructor(private _httpService: HttpService) { }
 
   ngOnInit() {
+
+    //TODO: add author
+
+    //TODO: add quote for an author
+
   }
 
 }

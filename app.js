@@ -29,7 +29,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', quoteRouter);
 
-
 // app.get('/', function (req, res){
 //     res.redirect('/');
 // });
